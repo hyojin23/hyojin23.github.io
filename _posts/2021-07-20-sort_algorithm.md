@@ -1,3 +1,8 @@
+----
+layout: single
+title: 정렬 알고리즘
+----
+
 # 정렬 알고리즘
 
 ## 선택 정렬(selection sort)
