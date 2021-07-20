@@ -1,6 +1,6 @@
 ----
 layout: single
-title: 정렬 알고리즘
+title: "정렬 알고리즘"
 ----
 
 # 정렬 알고리즘
