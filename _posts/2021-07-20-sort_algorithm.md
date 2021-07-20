@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "정렬 알고리즘"
 ---
 
