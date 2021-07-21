@@ -32,8 +32,8 @@ public class Selection_Sort {
     }
 
     public static int[] swap(int i, int min_index, int i_element, int min_index_element, int[] array) {
-        array[i] = b;
-        array[min_index] = a;
+        array[i] = min_index_element;
+        array[min_index] = i_element;
         return array;
     }
 
