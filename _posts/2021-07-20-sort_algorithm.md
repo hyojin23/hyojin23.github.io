@@ -31,7 +31,7 @@ public class Selection_Sort {
         System.out.println(Arrays.toString(array));
     }
 
-    public static int[] swap(int i, int min_index, int a, int b, int[] array) {
+    public static int[] swap(int i, int min_index, int i_element, int min_index_element, int[] array) {
         array[i] = b;
         array[min_index] = a;
         return array;
