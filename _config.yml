@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Fran"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "http://placehold.it/350x250" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
