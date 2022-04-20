@@ -1,0 +1,56 @@
+---
+layout: single
+categories: cpp
+title:  "[홍정모의 따라하며 배우는 C언어] 8.1 입출력 버퍼"
+author_profile: true
+
+---
+
+# 홍정모의 따라하며 배우는 C언어
+## 8. 문자 입출력과 입력 유효성 검증
+### 8.1 입출력 버퍼
+- 버퍼: 입력과 출력을 할 때 한꺼번에 모아서 입·출력하여 **속도**와 **효율성**을 높임 ex) 인터넷 동영상 전송 버퍼링, 게임에서 더블 버퍼링으로 화면 렌더링 속도 증가
+
+![img.png](img.png)
+- 버퍼의 크기: 보통 512byte, 4096byte 정도
+- 버퍼가 전송되는 방법 두가지
+    1. 버퍼가 다 차면 전송
+    2. '\n'이 들어오면 버퍼를 전송 (콘솔 입출력)
+
+```C
+/* getche()를 사용해 버퍼를 사용하지 않고 입출력하는 예 */
+
+#include <stdio.h>
+#include <conio.h> // Windows, _getch(), _getche()
+
+int main() {
+	char c;
+
+	while ((c = _getche()) != '.') // echo
+		putchar(c);
+
+	return 0;
+}
+```
+
+```C
+/* getch()를 사용해 버퍼를 사용하지 않고 입출력하는 예 */
+
+#include <stdio.h>
+#include <conio.h> // Windows, _getch(), _getche()
+
+int main() {
+	char c;
+
+	while ((c = _getch()) != '.')
+		putchar(c);
+
+	return 0;
+}
+```
+- getch()는 deprecated되어 사용할 수 없음
+
+![img_1.png](img_1.png)
+
+
+
