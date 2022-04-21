@@ -277,6 +277,13 @@ figcaption {
   }
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}
+
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
