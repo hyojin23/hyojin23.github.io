@@ -16,6 +16,7 @@ author_profile: true
 ```c
 #include <iostream>
 #include <sstream>
+
 using namespace std;
 
 int main() {
@@ -24,6 +25,37 @@ int main() {
     stringstream ss(s);
     while (ss >> res) {
         cout << res << endl;
+    }
+    return 0;
+}
+```
+```
+<실행 결과>
+apple
+123
+banana
+
+Process finished with exit code 0
+```
+- vector에 넣고 출력할 수도 있다.
+```c
+#include <iostream>
+#include <sstream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    string x, y, z, res;
+    string s = "apple 123 banana";
+    vector<string> a;
+    stringstream ss(s);
+    while (ss >> res) {
+        a.push_back(res);
+    }
+    int i;
+    for (i = 0; i < a.size(); i++) {
+        printf("%s\n", &a[i][0]);
     }
     return 0;
 }
