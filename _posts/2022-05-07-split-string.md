@@ -1,7 +1,7 @@
 ---
 layout: single
-categories: c++, 문자열 나누기
-title:  "[c++] stringstream, getline을 사용한 문자열 분리"
+categories: C++, 문자열 나누기
+title:  "[C++] stringstream, getline을 사용한 문자열 분리"
 author_profile: true
 ---
 
