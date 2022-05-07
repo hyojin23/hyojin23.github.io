@@ -11,8 +11,10 @@ author_profile: true
 ```c
 #include <sstream>
 ```
+
 2. 공백으로 구분된 문자 나누기
 - stringstream 함수는 공백과 \n을 제외한 문자열을 빼낸다.
+
 ```c
 #include <iostream>
 #include <sstream>
@@ -29,6 +31,7 @@ int main() {
     return 0;
 }
 ```
+
 ```
 <실행 결과>
 apple
@@ -37,7 +40,9 @@ banana
 
 Process finished with exit code 0
 ```
+
 - vector에 넣고 출력할 수도 있다.
+
 ```c
 #include <iostream>
 #include <sstream>
@@ -60,6 +65,7 @@ int main() {
     return 0;
 }
 ```
+
 ```
 <실행 결과>
 apple
@@ -87,6 +93,7 @@ int main() {
     return 0;
 }
 ```
+
 ```
 <실행 결과>
 red
