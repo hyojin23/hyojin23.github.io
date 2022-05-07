@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 categories: C++, 문자열 나누기
 title:  "[C++] stringstream, getline을 사용한 문자열 분리"
 author_profile: true
